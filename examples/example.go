@@ -4,9 +4,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/fzzy/radix/redis"
 	"os"
 	"time"
+
+	"github.com/ulfurinn/radix/redis"
 )
 
 func errHndlr(err error) {

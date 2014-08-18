@@ -3,10 +3,11 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/fzzy/radix/redis"
 	"os"
 	"runtime/pprof"
 	"time"
+
+	"github.com/ulfurinn/radix/redis"
 )
 
 var requests *int = flag.Int("n", 10000, "number of request")
